@@ -4,9 +4,11 @@ Bem-vindo à documentação do projeto Zenite. Esta é a central de conhecimento
 
 ## Specs
 
-Visão de alto nível dos sistemas e componentes:
+Visão de alto nível do planejamento e desenvolvimento:
 
-- [Sistema de Gestão Financeira Colaborativa](./specs/sistema-gestao-financeira.md) - Visão, hipótese e requisitos do sistema financeiro
+- [Roadmap e Tracker](./specs/roadmap-tracker.md) - 5 fases, 19 issues, progresso atual
+
+Versão simplificada, focada no essencial.
 
 ## Documentação de Decisões (ADRs)
 
@@ -17,6 +19,7 @@ Registro de decisões arquiteturais importantes:
 - [ADR-002: File-based com Acesso Serializado](./adrs/002-file-based-serializado.md) - Arquitetura offline-first
 - [ADR-003: Armazenamento em Centavos como Inteiros](./adrs/003-armazenamento-centavos.md) - Precisão monetária absoluta
 - [ADR-004: Linha Independente para Parcelas](./adrs/004-linha-independente-parcelas.md) - Modelagem de parcelamentos
+- [ADR-005: Estratégia de Planejamento MVP](./adrs/005-planejamento-mvp.md) - Por que as fases estão nessa ordem
 - [Template para novos ADRs](./templates/template-adr.md)
 
 ## Arquitetura
@@ -60,5 +63,5 @@ zenite/
 
 ---
 
-**Última atualização**: 2026-02-19
+**Última atualização**: 2026-02-21
 **Versão do Projeto**: 0.1.0
