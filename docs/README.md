@@ -6,9 +6,10 @@ Bem-vindo à documentação do projeto Zenite. Esta é a central de conhecimento
 
 Visão de alto nível do planejamento e desenvolvimento:
 
+- [Sistema de Gestão Financeira](./specs/sistema-gestao-financeira.md) - Detalhamento do sistema, funcionalidades e requisitos
 - [Roadmap e Tracker](./specs/roadmap-tracker.md) - 5 fases, 19 issues, progresso atual
 
-Versão simplificada, focada no essencial.
+Documentação técnica completa focada no essencial.
 
 ## Documentação de Decisões (ADRs)
 
