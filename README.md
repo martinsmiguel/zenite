@@ -56,6 +56,10 @@ Este projeto segue os princípios de **Engenharia de Conhecimento Cumulativo**:
 
 Leia mais em: [docs/README.md](./docs/README.md)
 
+## Fluxo de Desenvolvimento
+
+Fluxo Git Flow com branches develop para desenvolvimento de features e main para releases estáveis, onde todas as alterações são primeiro integradas no develop via merge request e apenas versões validadas são promovidas ao main.
+
 ---
 
 **Versão**: 0.1.0
