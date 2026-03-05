@@ -21,7 +21,15 @@ Registro de decisões arquiteturais importantes:
 - [ADR-003: Armazenamento em Centavos como Inteiros](./adrs/003-armazenamento-centavos.md) - Precisão monetária absoluta
 - [ADR-004: Linha Independente para Parcelas](./adrs/004-linha-independente-parcelas.md) - Modelagem de parcelamentos
 - [ADR-005: Estratégia de Planejamento MVP](./adrs/005-planejamento-mvp.md) - Por que as fases estão nessa ordem
+- [ADR-006: Estratégia de Testes para Rust/Tauri](./adrs/006-estrategia-testes-rust-tauri.md) - Adaptação de conceitos Python/Django
+- [ADR-007: Arquitetura em Quatro Camadas Essenciais](./adrs/007-arquitetura-quatro-camadas-essenciais.md) - Estrutura mínima com máxima testabilidade
 - [Template para novos ADRs](./templates/template-adr.md)
+
+## Handbook
+
+Guias de referência para o dia a dia de desenvolvimento:
+
+- [Arquitetura em Quatro Camadas](./handbook/arquitetura-camadas.md) - Onde colocar cada tipo de código, regras por camada e sinais de alerta
 
 ## Arquitetura
 

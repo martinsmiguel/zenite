@@ -39,6 +39,13 @@ Documentação técnica de interfaces no diretório `docs/architecture/`.
 **Atualização**: Deve ser atualizada ANTES de mudar o código
 **Conteúdo**: Input/output, tipos, exemplos, segurança
 
+### 4. Handbook
+Guias de trabalho de uso contínuo no diretório `docs/handbook/`.
+
+**Propósito**: Padrões de código, convenções arquiteturais e guias de referência do dia a dia — documentos consultados frequentemente, não apenas para entender decisões históricas
+**Público-alvo**: Desenvolvedores durante a implementação
+**Formato**: Markdown direto e orientativo ("faça X", "evite Y"), com tabelas de consulta rápida e exemplos de código
+
 ### Princípios Fundamentais
 
 #### Documentação Antecipada
@@ -111,6 +118,17 @@ NÃO crie ADR para:
 - Bugs específicos
 - Refatorações internas sem impacto arquitetural
 - Estilos de código triviais
+
+### Quando Criar um Handbook vs. ADR
+
+| Critério | ADR | Handbook |
+|----------|-----|----------|
+| Tipo | Decisão pontual e reversível | Padrão de trabalho de uso contínuo |
+| Consulta | Para entender *por que* algo foi decidido | Para saber *como* fazer no dia a dia |
+| Ciclo de vida | Proposto → Aceito → Deprecado | Evolui continuamente, sem "deprecação" |
+| Exemplos | Escolha de framework, modelagem de dados | Onde colocar cada tipo de código, convenções de teste |
+
+Um Handbook geralmente nasce de um ADR: o ADR registra a decisão; o Handbook detalha como aplicá-la no código.
 
 ### Ciclo de Vida de um ADR
 1. **Proposto**: Criado, em revisão
