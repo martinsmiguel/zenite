@@ -26,7 +26,7 @@ Melhorias de prevenção, ampliação CRUD, ferramentas de manutenção.
 
 ---
 
-## Progresso: 0/19 issues
+## Progresso: 1/19 issues
 
 ---
 
@@ -38,7 +38,7 @@ Contexto: Define a estrutura do banco com tabelas para transações, participant
 
 Para estar pronto: Tabelas criadas com tipos centavos, foreign keys e índices. Não vai fazer: configurar regras de negócio ou validações.
 
-Status: PENDING
+Status: CONCLUIDO
 
 **Issue-002**: File locking
 
